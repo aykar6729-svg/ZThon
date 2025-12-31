@@ -1,12 +1,13 @@
 
-<a href="https://ibb.co/sv7XrcH"><img src="https://i.ibb.co/sv7XrcH/Zilzalll.jpg" alt="Zilzalll" border="0"></a>
+from telethon import events
+from zedthon import zedub
 
-**〔 سـورس زدثــون - 𝗭𝗧𝗵𝗼𝗻 〕**
+@zedub.zed_cmd(pattern="فحص$")
+async def alive(event):
+    await event.edit("""**ـ﹙ سـورس تـيـثـر يـعـمـل بـنـجـاح ﹚ـ**
 
-**افضـل سـورسـات يـوزر بـوت العربيـة**
-
-**› عربـي بالكـامل › تحديثـات متواصـله › فـارات تلقـائيـه بسهولـه〔 حصريـاً 〕** 
-
-#**By:** https://t.me/ZThon
+**ـ الـمـطـور :** [إيكار](https://t.me/Aykar6729)
+**ـ الـقـنـاة :** [قـنـاة الـسـوبـر](https://t.me/XXXXX) 
+**ـ نـسـخـة مـطـورة ومـعدلة مـن زدثـون 🛠**""")
 
 
